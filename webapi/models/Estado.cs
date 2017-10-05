@@ -1,6 +1,6 @@
 namespace webapi.models
 {
-    public class Estado.c
+    public class Estado
     {
         
     }

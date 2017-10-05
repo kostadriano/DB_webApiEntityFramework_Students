@@ -1,7 +1,10 @@
+using System;
+
 namespace webapi.models
 {
     public class Matricula
     {
-        public System.DateTime dt_matricula { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
+        public System.DateTime Dt_Matricula { get; set; }
     }
 }

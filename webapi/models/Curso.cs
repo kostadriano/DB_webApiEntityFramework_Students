@@ -1,8 +1,11 @@
+using System;
+
 namespace webapi.models
 {
     public class Curso
     {
-        public string nome { get; set; }
-        public string titulo { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
+        public string Nome { get; set; }
+        public string Titulo { get; set; }
     }
 }
