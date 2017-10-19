@@ -2,9 +2,10 @@ using System;
 
 namespace webapi.models
 {
-    public class Professor
+    public class Cidade
     {
         public Guid Id { get; set; } = Guid.NewGuid();
-        public string nome { get; set; }
+        public string Nome { get; set; }
+
     }
 }
